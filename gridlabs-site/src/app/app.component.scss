@@ -1,0 +1,13 @@
+
+header {
+  padding: 2em;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 100px auto min-content(100px);
+
+  h1 {
+    margin: 0;
+  }
+}
