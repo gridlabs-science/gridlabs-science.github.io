@@ -33,7 +33,7 @@ const Background = styled("div")({
   backgroundSize: "cover",
   backgroundPosition: "center top 150px",
   backgroundRepeat: "no-repeat",
-  minHeight: "400vh",
+  minHeight: "100vh",
   margin: 0,
 });
 
