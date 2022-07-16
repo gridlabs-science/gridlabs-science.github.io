@@ -29,7 +29,8 @@ const getDesignTokens = (mode: PaletteMode): ThemeOptions => ({
         }
       : {
           // palette values for dark mode
-          primary: { main: "#6d2aad" },
+          primary: { main: "#a25ada", dark: "#6d2aad", light:"#c386f3" },
+          secondary: {main: "#00e5ff"},
           background: {
             default: "#131517",
             paper: "#131517",
@@ -73,7 +74,7 @@ export const Layout = ({ children }: PropsWithChildren) => {
                 <Stack spacing={2} direction="row">
                   <Link href="/join">
                     <Button variant="contained" component="a">
-                      Join the Cause
+                      Join the team
                     </Button>
                   </Link>
                   <Button
