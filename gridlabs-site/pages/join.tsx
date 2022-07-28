@@ -34,26 +34,6 @@ const Join: NextPage = () => {
       <Box sx={{ p: 4 }}>
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
-            {/* <Card variant="outlined">
-              <CardMedia
-                image="/undraw/undraw_server_cluster_jwwq.svg"
-                sx={{ height: 400, backgroundSize: "contain", m:3 }}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Become a cruncher
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Let your unused CPU and GPU cycles help democratize science
-                  and machine learning.
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button variant="outlined" sx={{ m: "auto" }}>
-                  Sign up
-                </Button>
-              </CardActions>
-            </Card> */}
             <JoinCard
               imageSrc="/undraw/undraw_server_cluster_jwwq.svg"
               headingText="Become a cruncher"

@@ -40,12 +40,50 @@ const Home: NextPage = () => {
         <Grid container spacing={4}>
           <Grid item xs={12} md={4}>
             <JoinCard
-              imageSrc="/undraw/undraw_server_cluster_jwwq.svg"
+              imageSrc="/undraw/undraw_book_lover_re_rwjy.svg"
               headingText="Key Citations"
               bodyText="Let your unused CPU and GPU cycles help democratize science
                   and machine learning."
-              actionText="Sign up"
+              actionText="Learn more"
               actionHref="#"
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <JoinCard
+              imageSrc="/undraw/undraw_team_collaboration_re_ow29.svg"
+              headingText="Join the Team"
+              bodyText="If you like what we're doing and want to help, here's how you can get involved."
+              actionText="Get Involved"
+              actionHref="/join"
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <JoinCard
+              imageSrc="/undraw/undraw_my_answer_re_k4dv.svg"
+              headingText="FAQ"
+              bodyText="&quot;Frequently Anticipated Questions,&quot; further explaining some of the details."
+              actionText="Learn more"
+              actionHref="/faq"
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <JoinCard
+              imageSrc="/undraw/undraw_charts_re_5qe9.svg"
+              headingText="The Grid Labs Dashboard"
+              bodyText="A collection of useful metrics we track, made publicly available for the convenience of the Gridcoin community."
+              actionText="View metrics"
+              actionHref="https://metrics.gridlabs.science"
+              target="_blank"
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <JoinCard
+              imageSrc="/undraw/undraw_online_articles_re_yrkj.svg"
+              headingText="The Grid Log"
+              bodyText="Because if you&apos;re doing science without a spiffy notebook, what are you even doing?"
+              actionText="View metrics"
+              actionHref="https://gridlabs.substack.com/"
+              target="_blank"
             />
           </Grid>
         </Grid>
