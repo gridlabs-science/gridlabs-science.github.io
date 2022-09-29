@@ -12,7 +12,7 @@ const Join: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Join the Team</title>
+        <title>Grid Labs | Join the Team</title>
       </Head>
 
       <Box sx={{ mt: 15, textAlign: "center" }}>

@@ -1,11 +1,15 @@
 import { Box, Button, Grid, Paper, Typography } from "@mui/material";
 import { NextPage } from "next";
+import Head from "next/head";
 import Link from "next/link";
 import { JoinCard } from "../components/joinCard";
 
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Grid Labs</title>
+      </Head>
       <Box sx={{ p: 4, mt: 10, mb: 10 }}>
         <Typography variant="h2">Let&apos;s do some science.</Typography>
         <Typography variant="h5" sx={{ pt: 4, pb: 4 }}>
@@ -45,7 +49,7 @@ const Home: NextPage = () => {
               bodyText="Let your unused CPU and GPU cycles help democratize science
                   and machine learning."
               actionText="Learn more"
-              actionHref="#"
+              actionHref="/acknowledgements"
             />
           </Grid>
           <Grid item xs={12} md={4}>
@@ -61,7 +65,7 @@ const Home: NextPage = () => {
             <JoinCard
               imageSrc="/undraw/undraw_my_answer_re_k4dv.svg"
               headingText="FAQ"
-              bodyText="&quot;Frequently Anticipated Questions,&quot; further explaining some of the details."
+              bodyText='"Frequently Anticipated Questions," further explaining some of the details.'
               actionText="Learn more"
               actionHref="/faq"
             />
@@ -80,8 +84,8 @@ const Home: NextPage = () => {
             <JoinCard
               imageSrc="/undraw/undraw_online_articles_re_yrkj.svg"
               headingText="The Grid Log"
-              bodyText="Because if you&apos;re doing science without a spiffy notebook, what are you even doing?"
-              actionText="View metrics"
+              bodyText="Because if you're doing science without a spiffy notebook, what are you even doing?"
+              actionText="Read the blog"
               actionHref="https://gridlabs.substack.com/"
               target="_blank"
             />

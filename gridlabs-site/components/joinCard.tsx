@@ -7,6 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import { HTMLAttributeAnchorTarget } from "react";
+import Link from "./link";
 
 interface Props {
   imageSrc: string;
@@ -18,14 +19,15 @@ interface Props {
 }
 
 export const JoinCard = (props: Props) => {
-  const { imageSrc, headingText, bodyText, actionText, actionHref, target } = props;
+  const { imageSrc, headingText, bodyText, actionText, actionHref, target } =
+    props;
 
   return (
     <Card variant="outlined">
       <CardMedia
         image={imageSrc}
         component="img"
-        sx={{ width: "90%", m:"5%" }}
+        sx={{ width: "90%", m: "5%" }}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -36,7 +38,15 @@ export const JoinCard = (props: Props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button href={actionHref} target={target} variant="outlined" sx={{ m: "auto" }}>
+        <Button
+          variant="outlined"
+          component={Link}
+          href={actionHref}
+          target={target}
+          rel={target === "_blank" ? "noopener" : undefined}
+          sx={{ m: "auto" }}
+          noLinkStyle
+        >
           {actionText}
         </Button>
       </CardActions>
