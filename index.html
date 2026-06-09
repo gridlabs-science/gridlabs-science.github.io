@@ -1,466 +1,340 @@
-<!DOCTYPE HTML>
-<!--
-    Strata by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-    <head>
-        <title>Grid Labs</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grid Labs | Sovereign mining and distributed compute</title>
+    <meta
+      name="description"
+      content="Grid Labs builds open-source infrastructure for sovereign Bitcoin mining, home mining hardware, and distributed compute experiments."
+    />
+    <meta name="theme-color" content="#080a0d" />
+    <link rel="icon" href="GridLabs Logo.png" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/gridlabs.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        <!-- Header -->
-            <header id="header">
-                <div class="inner">
-                    <a href="#" class="image avatar"><img src="images/gridlabs-black-bg.png" alt="" /></a>
-                    <h1>
-                        <strong>Grid Labs</strong><br />
-                        For science.
-                    </h1>
-                </div>
-            </header>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Grid Labs home">
+        <img src="images/gridlabs-black-bg.png" alt="" />
+        <span>Grid Labs</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#downloads">STL files</a>
+        <a href="#storefront">Storefront</a>
+        <a href="https://github.com/gridlabs-science" rel="noreferrer">
+          <span class="fab fa-github" aria-hidden="true"></span>
+          GitHub
+        </a>
+      </nav>
+    </header>
 
-        <!-- Main -->
-            <div id="main">
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="hero-mark">
+            <img src="images/gridlabs-light-bg.png" alt="" />
+          </div>
+          <p class="eyebrow">Open-source mining infrastructure</p>
+          <h1 id="hero-title">Grid Labs</h1>
+          <p class="hero-copy">
+            We build decentralized Bitcoin mining technology, practical home
+            mining hardware, and early distributed compute systems for AI
+            research.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button button-primary" href="https://gridpool.net" rel="noreferrer">
+              <span class="fas fa-bolt" aria-hidden="true"></span>
+              Launch GridPool
+            </a>
+            <a class="button" href="https://github.com/gridlabs-science" rel="noreferrer">
+              <span class="fab fa-github" aria-hidden="true"></span>
+              View Source
+            </a>
+          </div>
+        </div>
+      </section>
 
-                <!-- One -->
-                    <section id="one">
-                        <header class="major">
-                            <h2>Welcome to Grid Labs!<br />
-                            Let's do some science.</h2>
-                        </header>
-                        <p><b>Our Mission</b> is to increase the amount of computing power available to scientific research, small businesses, startups, and other under-served but important economic enterprises.  We aim to do this by leveraging bleeding edge computation coordination algorithms on a maximally distributed network of underutilized processors and Graphics Processing Units (GPUs).  </p>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Learn More</a></li>
-                        </ul>
-                    </section>
+      <section class="signal-strip" aria-label="Current focus areas">
+        <div>
+          <strong>Public beta</strong>
+          <span>GridPool decentralized reward sharing</span>
+        </div>
+        <div>
+          <strong>Field research</strong>
+          <span>Direct-DC solar and home mining</span>
+        </div>
+        <div>
+          <strong>Downloads soon</strong>
+          <span>STL files for adapters and cases</span>
+        </div>
+        <div>
+          <strong>Early stage</strong>
+          <span>BOINC-AI distributed compute</span>
+        </div>
+      </section>
 
-                <!-- Two -->
-                    <section id="two">
-                        <h2>Other resources</h2>
-                        <div class="row">
-                            <article class="col-6 col-12-xsmall work-item">
-                                <a href="acknowledgements.html" class="image fit thumb"><img src="images/ManyLeatherboundBooks.png" alt="" /></a>
-                                <h3>Key citations</h3>
-                                <p>A collection of written work that forms the basis for Grid Lab's vision.</p>
-                            </article>
-                            <article class="col-6 col-12-xsmall work-item">
-                                <a href="JoinTheTeam.html" class="image fit thumb"><img src="images/UncleSam.jpg" alt="" /></a>
-                                <!-- Image credit is here, will need to add it to site eventually https://www.flickr.com/photos/donkeyhotey/5666047820/in/photostream/-->
-                                <h3>Join the team</h3>
-                                <p>If you like what we're doing and want to help, here's how you can get involved.</p>
-                            </article>
-                            <article class="col-6 col-12-xsmall work-item">
-                                <a href="faq.html" class="image fit thumb"><img src="images/BlocksSmall.jpg" alt="" /></a>
-                                <h3>FAQ</h3>
-                                <p>"Frequently Anticipated Questions," further explaining some of the details.</p>
-                            </article>
-                            <article class="col-6 col-12-xsmall work-item">
-                                <a href="https://github.com/gridlabs-science/BLINKIN" class="image fit thumb"><img src="images/NN.jpg" alt="" /></a>
-                                <!-- Image credit here: "aman_geld 03.01.04 (neural network)" by Cea. is licensed under CC BY-NC-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=openverse&atype=rich -->
-                                <h3>BLINKIN</h3>
-                                <p>Our first AI project.  "What are you doing up there Blinkin?"</p>
-                            </article>
-                            <article class="col-6 col-12-xsmall work-item">
-                                <a href="https://gridlabs-grafana.gridcoin.app/d/pVzRgDtnz/gridcoin-stats?orgId=1" class="image fit thumb"><img src="images/GridcoinStats.png" alt="" /></a>
-                                <h3>The Grid Labs Dashboard</h3>
-                                <p>A collection of useful metrics we track, made publicly available for the convenience of the Gridcoin community.</p>
-                            </article>
-                            <article class="col-6 col-12-xsmall work-item">
-                                <a href="https://gridlabs.substack.com/" class="image fit thumb"><img src="images/Notebooks.jpg" alt="" /></a>
-                                <!-- Image credit: https://wordpress.org/openverse/image/b37af287-4362-4c05-a079-0ef19503571d-->
-                                <h3>The Grid Log</h3>
-                                <p>Because if your doing science without a spiffy notebook, what are you even doing?</p>
-                            </article>
-                        </div>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Beam me up Scotty!</a></li>
-                        </ul>
-                    </section>
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">What we are building</p>
+          <h2 id="projects-title">Current Grid Labs efforts</h2>
+          <p>
+            The company has moved from the original Gridcoin-era experiment
+            toward sovereign Bitcoin mining infrastructure, open hardware
+            research, and distributed compute.
+          </p>
+        </div>
 
-                <!-- Three -->
-                    <!-- <section id="three">
-                        <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-                        <div class="row">
-                            <div class="col-8 col-12-small">
-                                <form method="post" action="#">
-                                    <div class="row gtr-uniform gtr-50">
-                                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                    </div>
-                                </form>
-                                <ul class="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
-                            </div>
-                            <div class="col-4 col-12-small">
-                                <ul class="labeled-icons">
-                                    <li>
-                                        <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
-                                    </li>
-                                    <li>
-                                        <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
-                                        <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section> -->
-
-                <!-- Four -->
-                <!--
-                    <section id="four">
-                        <h2>Elements</h2>
-
-                        <section>
-                            <h4>Text</h4>
-                            <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-                            This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                            This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-                            <hr />
-                            <header>
-                                <h4>Heading with a Subtitle</h4>
-                                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                            </header>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                            <header>
-                                <h5>Heading with a Subtitle</h5>
-                                <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                            </header>
-                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                            <hr />
-                            <h2>Heading Level 2</h2>
-                            <h3>Heading Level 3</h3>
-                            <h4>Heading Level 4</h4>
-                            <h5>Heading Level 5</h5>
-                            <h6>Heading Level 6</h6>
-                            <hr />
-                            <h5>Blockquote</h5>
-                            <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-                            <h5>Preformatted</h5>
-                            <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-                        </section>
-
-                        <section>
-                            <h4>Lists</h4>
-                            <div class="row">
-                                <div class="col-6 col-12-xsmall">
-                                    <h5>Unordered</h5>
-                                    <ul>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
-                                    </ul>
-                                    <h5>Alternate</h5>
-                                    <ul class="alt">
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Sagittis adipiscing lorem eleifend.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 col-12-xsmall">
-                                    <h5>Ordered</h5>
-                                    <ol>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Etiam vel felis at lorem sed viverra.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
-                                        <li>Dolor pulvinar etiam magna etiam.</li>
-                                        <li>Etiam vel felis at lorem sed viverra.</li>
-                                        <li>Felis enim feugiat dolore viverra.</li>
-                                    </ol>
-                                    <h5>Icons</h5>
-                                    <ul class="icons">
-                                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                                        <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                                        <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                        <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <h5>Actions</h5>
-                            <ul class="actions">
-                                <li><a href="#" class="button primary">Default</a></li>
-                                <li><a href="#" class="button">Default</a></li>
-                            </ul>
-                            <ul class="actions small">
-                                <li><a href="#" class="button primary small">Small</a></li>
-                                <li><a href="#" class="button small">Small</a></li>
-                            </ul>
-                            <div class="row">
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary">Default</a></li>
-                                        <li><a href="#" class="button">Default</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary small">Small</a></li>
-                                        <li><a href="#" class="button small">Small</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary fit">Default</a></li>
-                                        <li><a href="#" class="button fit">Default</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 col-12-small">
-                                    <ul class="actions stacked">
-                                        <li><a href="#" class="button primary small fit">Small</a></li>
-                                        <li><a href="#" class="button small fit">Small</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section>
-                            <h4>Table</h4>
-                            <h5>Default</h5>
-                            <div class="table-wrapper">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Description</th>
-                                            <th>Price</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Item One</td>
-                                            <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Two</td>
-                                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td>19.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Three</td>
-                                            <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Four</td>
-                                            <td>Vitae integer tempus condimentum.</td>
-                                            <td>19.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Five</td>
-                                            <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <td colspan="2"></td>
-                                            <td>100.00</td>
-                                        </tr>
-                                    </tfoot>
-                                </table>
-                            </div>
-
-                            <h5>Alternate</h5>
-                            <div class="table-wrapper">
-                                <table class="alt">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Description</th>
-                                            <th>Price</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Item One</td>
-                                            <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Two</td>
-                                            <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                            <td>19.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Three</td>
-                                            <td> Morbi faucibus arcu accumsan lorem.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Four</td>
-                                            <td>Vitae integer tempus condimentum.</td>
-                                            <td>19.99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Item Five</td>
-                                            <td>Ante turpis integer aliquet porttitor.</td>
-                                            <td>29.99</td>
-                                        </tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <td colspan="2"></td>
-                                            <td>100.00</td>
-                                        </tr>
-                                    </tfoot>
-                                </table>
-                            </div>
-                        </section>
-
-                        <section>
-                            <h4>Buttons</h4>
-                            <ul class="actions">
-                                <li><a href="#" class="button primary">Primary</a></li>
-                                <li><a href="#" class="button">Default</a></li>
-                            </ul>
-                            <ul class="actions">
-                                <li><a href="#" class="button large">Large</a></li>
-                                <li><a href="#" class="button">Default</a></li>
-                                <li><a href="#" class="button small">Small</a></li>
-                            </ul>
-                            <ul class="actions fit">
-                                <li><a href="#" class="button primary fit">Fit</a></li>
-                                <li><a href="#" class="button fit">Fit</a></li>
-                            </ul>
-                            <ul class="actions fit small">
-                                <li><a href="#" class="button primary fit small">Fit + Small</a></li>
-                                <li><a href="#" class="button fit small">Fit + Small</a></li>
-                            </ul>
-                            <ul class="actions">
-                                <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-                                <li><a href="#" class="button icon solid fa-download">Icon</a></li>
-                            </ul>
-                            <ul class="actions">
-                                <li><span class="button primary disabled">Primary</span></li>
-                                <li><span class="button disabled">Default</span></li>
-                            </ul>
-                        </section>
-
-                        <section>
-                            <h4>Form</h4>
-                            <form method="post" action="#">
-                                <div class="row gtr-uniform gtr-50">
-                                    <div class="col-6 col-12-xsmall">
-                                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-                                    </div>
-                                    <div class="col-6 col-12-xsmall">
-                                        <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                                    </div>
-                                    <div class="col-12">
-                                        <select name="demo-category" id="demo-category">
-                                            <option value="">- Category -</option>
-                                            <option value="1">Manufacturing</option>
-                                            <option value="1">Shipping</option>
-                                            <option value="1">Administration</option>
-                                            <option value="1">Human Resources</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-4 col-12-small">
-                                        <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                                        <label for="demo-priority-low">Low Priority</label>
-                                    </div>
-                                    <div class="col-4 col-12-small">
-                                        <input type="radio" id="demo-priority-normal" name="demo-priority">
-                                        <label for="demo-priority-normal">Normal Priority</label>
-                                    </div>
-                                    <div class="col-4 col-12-small">
-                                        <input type="radio" id="demo-priority-high" name="demo-priority">
-                                        <label for="demo-priority-high">High Priority</label>
-                                    </div>
-                                    <div class="col-6 col-12-small">
-                                        <input type="checkbox" id="demo-copy" name="demo-copy">
-                                        <label for="demo-copy">Email me a copy of this message</label>
-                                    </div>
-                                    <div class="col-6 col-12-small">
-                                        <input type="checkbox" id="demo-human" name="demo-human" checked>
-                                        <label for="demo-human">I am a human and not a robot</label>
-                                    </div>
-                                    <div class="col-12">
-                                        <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-                                    </div>
-                                    <div class="col-12">
-                                        <ul class="actions">
-                                            <li><input type="submit" value="Send Message" class="primary" /></li>
-                                            <li><input type="reset" value="Reset" /></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
-
-                        <section>
-                            <h4>Image</h4>
-                            <h5>Fit</h5>
-                            <div class="box alt">
-                                <div class="row gtr-50 gtr-uniform">
-                                    <div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-                                    <div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-                                </div>
-                            </div>
-                            <h5>Left &amp; Right</h5>
-                            <p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                            <p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                        </section>
-
-                    </section>
-                -->
-
+        <div class="project-grid">
+          <article class="project-card project-card-feature">
+            <div class="card-topline">
+              <span class="status status-live">Public beta</span>
+              <span class="fas fa-network-wired" aria-hidden="true"></span>
             </div>
+            <h3>GridPool</h3>
+            <p>
+              Decentralized reward sharing for sovereign Bitcoin miners.
+              GridPool lets miners keep their own block templates while sharing
+              high-difficulty proofs to reduce solo-style payout variance.
+            </p>
+            <ul class="feature-list">
+              <li>DATUM support today</li>
+              <li>Hydrapool path in progress</li>
+              <li>No centralized payout wallet</li>
+            </ul>
+            <div class="card-actions">
+              <a href="https://gridpool.net" rel="noreferrer">
+                <span class="fas fa-external-link-alt" aria-hidden="true"></span>
+                Public beta
+              </a>
+              <a href="https://github.com/gridlabs-science/boot-protocol" rel="noreferrer">
+                <span class="fab fa-github" aria-hidden="true"></span>
+                Source
+              </a>
+            </div>
+          </article>
 
-        <!-- Footer -->
-            <footer id="footer">
-                <div class="inner">
-                    <ul class="icons">
-                        <li><a href="https://twitter.com/GridLabsScience" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="https://github.com/gridlabs-science" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="mailto:support@gridlabs.science" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                    </ul>
-                    <ul class="copyright">
-                        <li>&copy; Grid Labs, LLC</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                    </ul>
-                </div>
-            </footer>
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="status">R&amp;D</span>
+              <span class="fas fa-solar-panel" aria-hidden="true"></span>
+            </div>
+            <h3>Home mining and direct-DC solar</h3>
+            <p>
+              Tools and field research for running miners from practical power
+              setups, including direct-DC solar experiments, simulations, and
+              home-scale deployment notes.
+            </p>
+            <div class="card-actions">
+              <a href="https://github.com/gridlabs-science/GridLabs-Solar-Sim" rel="noreferrer">
+                <span class="fab fa-github" aria-hidden="true"></span>
+                Solar Sim
+              </a>
+              <a href="https://github.com/gridlabs-science/100AcresOpenSource" rel="noreferrer">
+                <span class="fab fa-github" aria-hidden="true"></span>
+                100 Acres
+              </a>
+            </div>
+          </article>
 
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.poptrox.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="status status-soon">Downloads soon</span>
+              <span class="fas fa-cubes" aria-hidden="true"></span>
+            </div>
+            <h3>3D printed mining parts</h3>
+            <p>
+              Fan adapters, case pieces, ducts, and fixtures for home mining
+              builds. The catalog is structured for direct STL downloads and
+              future paid print services.
+            </p>
+            <div class="card-actions">
+              <a href="downloads/stl/">
+                <span class="fas fa-download" aria-hidden="true"></span>
+                STL catalog
+              </a>
+              <a href="mailto:admin@gridlabs.science?subject=Grid%20Labs%203D%20printing%20inquiry">
+                <span class="fas fa-envelope" aria-hidden="true"></span>
+                Print inquiry
+              </a>
+            </div>
+          </article>
 
-    </body>
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="status status-early">Early stage</span>
+              <span class="fas fa-brain" aria-hidden="true"></span>
+            </div>
+            <h3>BOINC-AI</h3>
+            <p>
+              A research-stage effort to explore whether the BOINC network can
+              be useful for distributed AI compute. This stays intentionally
+              quiet until the first public repo is ready.
+            </p>
+            <div class="card-actions">
+              <span class="inactive-link">
+                <span class="fas fa-hourglass-half" aria-hidden="true"></span>
+                Coming soon
+              </span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-split" id="repositories" aria-labelledby="repos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Open by default</p>
+          <h2 id="repos-title">Public work lives on GitHub</h2>
+          <p>
+            Grid Labs publishes source, docs, and research notes where practical.
+            These are the primary public entry points for the current focus.
+          </p>
+        </div>
+        <div class="repo-list">
+          <a href="https://github.com/gridlabs-science/boot-protocol" rel="noreferrer">
+            <span class="fab fa-github" aria-hidden="true"></span>
+            <strong>boot-protocol</strong>
+            <small>GridPool protocol, WebUI, DATUM integration, Docker packaging</small>
+          </a>
+          <a href="https://github.com/gridlabs-science/GridLabs-Solar-Sim" rel="noreferrer">
+            <span class="fab fa-github" aria-hidden="true"></span>
+            <strong>GridLabs-Solar-Sim</strong>
+            <small>Solar configuration simulator for mining power research</small>
+          </a>
+          <a href="https://github.com/gridlabs-science/100AcresOpenSource" rel="noreferrer">
+            <span class="fab fa-github" aria-hidden="true"></span>
+            <strong>100AcresOpenSource</strong>
+            <small>Authorized open-source S9 direct-DC solar mining materials</small>
+          </a>
+          <a href="https://github.com/gridlabs-science" rel="noreferrer">
+            <span class="fab fa-github" aria-hidden="true"></span>
+            <strong>gridlabs-science</strong>
+            <small>Organization profile and future public repositories</small>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="downloads" aria-labelledby="downloads-title">
+        <div class="section-heading">
+          <p class="eyebrow">Printable hardware</p>
+          <h2 id="downloads-title">STL file catalog</h2>
+          <p>
+            This site now has a permanent place for Grid Labs-designed printable
+            mining parts. Files will be published here as direct downloads as
+            designs are cleaned up for public release.
+          </p>
+        </div>
+        <div class="download-grid">
+          <article class="download-card">
+            <span class="fas fa-fan" aria-hidden="true"></span>
+            <h3>Fan adapters</h3>
+            <p>Printable airflow adapters for home mining builds.</p>
+            <span class="availability">STL files coming soon</span>
+          </article>
+          <article class="download-card">
+            <span class="fas fa-box-open" aria-hidden="true"></span>
+            <h3>Case and duct parts</h3>
+            <p>Enclosures, ducts, and fixtures for cooling experiments.</p>
+            <span class="availability">STL files coming soon</span>
+          </article>
+          <article class="download-card">
+            <span class="fas fa-tools" aria-hidden="true"></span>
+            <h3>Mounts and fixtures</h3>
+            <p>Small parts for panels, controllers, miners, and test benches.</p>
+            <span class="availability">STL files coming soon</span>
+          </article>
+        </div>
+        <div class="section-actions">
+          <a class="button" href="downloads/stl/">
+            <span class="fas fa-download" aria-hidden="true"></span>
+            Open STL catalog
+          </a>
+        </div>
+      </section>
+
+      <section class="section storefront" id="storefront" aria-labelledby="store-title">
+        <div class="section-heading">
+          <p class="eyebrow">Storefront placeholder</p>
+          <h2 id="store-title">Printed parts and swag</h2>
+          <p>
+            Checkout is not live yet. This area is reserved for paid 3D prints,
+            kits, and Grid Labs swag once Stripe and BTCPay Server are ready.
+          </p>
+        </div>
+        <div class="store-grid">
+          <article class="store-item">
+            <span class="status status-soon">Coming soon</span>
+            <h3>Printed mining adapters</h3>
+            <p>Order-ready versions of selected STL designs.</p>
+            <a href="mailto:admin@gridlabs.science?subject=Grid%20Labs%20printed%20adapter%20inquiry">
+              <span class="fas fa-envelope" aria-hidden="true"></span>
+              Inquire
+            </a>
+          </article>
+          <article class="store-item">
+            <span class="status status-soon">Coming soon</span>
+            <h3>Small-batch hardware kits</h3>
+            <p>Prints, fasteners, and build notes packaged for specific setups.</p>
+            <a href="mailto:admin@gridlabs.science?subject=Grid%20Labs%20hardware%20kit%20inquiry">
+              <span class="fas fa-envelope" aria-hidden="true"></span>
+              Inquire
+            </a>
+          </article>
+          <article class="store-item">
+            <span class="status status-soon">Coming soon</span>
+            <h3>Grid Labs swag</h3>
+            <p>Apparel and desk gear for people building sovereign infrastructure.</p>
+            <a href="mailto:admin@gridlabs.science?subject=Grid%20Labs%20swag%20inquiry">
+              <span class="fas fa-envelope" aria-hidden="true"></span>
+              Inquire
+            </a>
+          </article>
+        </div>
+        <p class="fine-print">
+          Future checkout links may use Stripe for cards and BTCPay Server for
+          Bitcoin payments. No payment processor is active on this page today.
+        </p>
+      </section>
+
+      <section class="contact-band" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Build, test, or collaborate</h2>
+          <p>
+            For print inquiries, partnerships, or project questions, contact
+            Grid Labs directly.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:admin@gridlabs.science">
+          <span class="fas fa-envelope" aria-hidden="true"></span>
+          admin@gridlabs.science
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="images/gridlabs-black-bg.png" alt="" />
+        <span>Grid Labs, LLC</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/gridlabs-science" rel="noreferrer">
+          <span class="fab fa-github" aria-hidden="true"></span>
+          GitHub
+        </a>
+        <a href="mailto:admin@gridlabs.science">
+          <span class="fas fa-envelope" aria-hidden="true"></span>
+          Email
+        </a>
+        <a href="https://twitter.com/GridLabsScience" rel="noreferrer">
+          <span class="fab fa-twitter" aria-hidden="true"></span>
+          X/Twitter
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
